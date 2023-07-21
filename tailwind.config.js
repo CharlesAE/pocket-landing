@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         brand: '#00aeef',
+        brandAlt:'#006d95',
         pyellow: '#fff200',
         pred: '#ed1b24',
         primary : '#3c3c3d',

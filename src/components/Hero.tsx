@@ -3,11 +3,11 @@ import { pocketlinks } from '../constants'
 
 const Hero = () => {
   return (
-    <section  className={`bg-white overflow-hidden bg-pattern pt-24 bg-center relative`} >
+    <section  className={`relative main-section`} >
        
         <div className="container px-4 mx-auto">
           <div className="text-center">
-          <span className="inline-block py-px px-2 mb-4 text-xs leading-5 text-white bg-gradient-brand background-animate overflow-hidden font-medium rounded-full shadow-sm" >Application</span>
+          <span className="gradient-fill" >Application</span>
             
 
           <img className="h-16 mx-auto mb-8" src={pocket} alt="" />

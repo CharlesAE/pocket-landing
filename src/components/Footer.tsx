@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { pocketlinks } from '../constants'
 const Footer = () => {
   return (
-    <section   className={`bg-white overflow-hidden bg-pattern bg-center relative`} >
+    <section   className={`relative main-section`} >
        
     <div className="container px-4 mx-auto">
       <div className="w-full text-center md:items-center pt-24 pb-4 -mx-4">
