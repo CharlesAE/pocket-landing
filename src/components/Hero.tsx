@@ -14,12 +14,12 @@ const Hero = () => {
             <h3 className="mb-4 text-4xl md:text-5xl leading-tight  font-bold tracking-tighter" >Pocket Antigua</h3>
             <p className="mb-6 mx-auto text-lg md:text-xl font-light max-w-2xl " >Antigua has lots to offer; restaurants, stores, hand made crafts etc... the problem is you don't know they even exist, what time they open or how to find them, do you?
 The solution is Pocket Antigua, we put the island, in your pocket.</p>
-            <div className="flex flex-wrap justify-center mb-16">
+            <div className="flex flex-wrap justify-center mb-16 space-x-2 ">
 
             {
           pocketlinks.platform.map((platform) => (
-            <div className="px-5 " key={platform.id}>
-              <a className="w-full md:w-auto mb-3 md:mb-0 md:mr-4" href={platform.url} target='_blank'>
+            <div className="w-auto p-2.5 space-y-2" key={platform.id}>
+              <a className="w-full " href={platform.url} target='_blank'>
                 <img className="mx-auto" src={ 
                   platform.id =='android' ?
                   google_play
