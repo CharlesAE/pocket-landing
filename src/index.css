@@ -9,7 +9,6 @@
 
 * {
   scroll-behavior: smooth;
-  
 }
 
 
@@ -18,8 +17,17 @@
   section {
     @apply bg-white overflow-hidden bg-pattern  bg-center  
   }
+  p {
+    @apply font-light font-quicksand
+  }
+  h3 {
+    @apply mb-4 text-4xl md:text-5xl font-montserrat leading-tight font-bold tracking-tighter
+  }
   .main-section {
-    @apply pt-12 md:py-24 md:pt-32 
+    @apply pt-12 md:py-24 md:pt-24 
+  }
+  .main-paragraph {
+    @apply mb-6 mx-auto text-lg font-normal max-w-2xl
   }
   .footer-icon {
     @apply inline-block hover:text-brand transition-all duration-100 ease-in

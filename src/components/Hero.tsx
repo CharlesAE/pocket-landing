@@ -1,5 +1,5 @@
 import { app_store,  google_play,  iphone_screen1, iphone_screen2, iphone_screen3, iphone_case1, iphone_case2,  iphone_case3, pocket, yellow  } from '../assets'
-import { pocketlinks } from '../constants'
+import { pocketobject } from '../constants'
 
 const Hero = () => {
   return (
@@ -10,26 +10,22 @@ const Hero = () => {
           <span className="gradient-fill" >Application</span>
             
 
-          <img className="h-16 mx-auto mb-8" src={pocket} alt="" />
-            <h3 className="mb-4 text-4xl md:text-5xl leading-tight  font-bold tracking-tighter" >Pocket Antigua</h3>
-            <p className="mb-6 mx-auto text-lg md:text-xl font-light max-w-2xl " >Antigua has lots to offer; restaurants, stores, hand made crafts etc... the problem is you don't know they even exist, what time they open or how to find them, do you?
-The solution is Pocket Antigua, we put the island, in your pocket.</p>
-            <div className="flex flex-wrap justify-center mb-16 space-x-2 ">
+          <img className="h-16 mx-auto mb-8" src={pocket}  alt={pocketobject.alt} />
+            <h3  >Pocket Antigua</h3>
+            <p className="main-paragraph " >{pocketobject.intro}</p>
+            <div className="flex flex-wrap justify-center mb-12 space-x-2 ">
 
             {
-          pocketlinks.platform.map((platform) => (
+          pocketobject.platform.map((platform) => (
             <div className="w-auto p-2.5 space-y-2" key={platform.id}>
               <a className="w-full " href={platform.url} target='_blank'>
                 <img className="mx-auto" src={ 
                   platform.id =='android' ?
                   google_play
-                : app_store} alt={pocketlinks.alt} />
+                : app_store} alt={pocketobject.alt} />
               </a>
             </div>
-            
-            
-              
-          ))}
+            ))}
 
               
             </div>

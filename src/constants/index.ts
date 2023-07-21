@@ -3,9 +3,10 @@ import {
     faFacebook,
     faInstagram,
 } from "@fortawesome/free-brands-svg-icons"
-export const pocketlinks = 
+export const pocketobject = 
     
     { alt: "Pocket Antigua - The Island In Your Pocket",
+    intro: "Antigua has lots to offer; restaurants, stores, hand made crafts etc... the problem is you don't know they even exist, what time they open or how to find them, do you? The solution is Pocket Antigua, we put the island, in your pocket.",
     social : [
         {
             id: "facebook",

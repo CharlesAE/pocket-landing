@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { wave } from '../assets'
 
 const Missing = () => {
@@ -12,8 +12,8 @@ const Missing = () => {
             
             <div className="w-full md:w-2/3 mx-auto md:mb-24">
               <div className="md:max-w-xl mx-auto text-center md:text-left">
-              <h3 className="mb-4 text-4xl md:text-5xl leading-tight  font-bold tracking-tighter" >404</h3>
-            <p className="mb-6 mx-auto text-lg md:text-xl font-light max-w-2xl " >Something went wrong, the requested URL was not found on this server or the page has been moved or removed from the website.</p>
+              <h3 >404</h3>
+            <p className=" main-paragraph" >Something went wrong, the requested URL was not found on this server or the page has been moved or removed from the website.</p>
             
                  <div className="w-full md:w-1/2"><a className="brand-button" href="/">Take Me Home</a></div>
                   
