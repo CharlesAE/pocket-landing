@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+* {
+  scroll-behavior: smooth;
+  
+}
+
+
+
+@layer base {
+  .footer-icon {
+    @apply inline-block hover:text-brand transition-all duration-100 ease-in
+  }
+}
+
+.bg-gradient-brand{
+  background-image:linear-gradient(112.84deg,#48b1e0 .33%,#76c5e8 38.23%,#a4d8f0 65.22%,#bfb600 100%)
+}
+
+.background-animate{
+  background-size:400%;
+  -webkit-animation:AnimateBackground 15s linear infinite;
+  animation:AnimateBackground 15s linear infinite
+}
+@-webkit-keyframes AnimateBackground
+{
+  0%,100%{background-position:0 50%}
+  50%{background-position:100% 50%}
+}
+  
+  @keyframes AnimateBackground{
+    0%,100%{
+      background-position:0 50%
+    }
+    50%
+    {background-position:100% 50%}}
