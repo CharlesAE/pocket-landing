@@ -1,6 +1,5 @@
 import { pocket } from '../assets'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
 import { pocketlinks } from '../constants'
 const Footer = () => {
   return (

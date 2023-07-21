@@ -1,4 +1,3 @@
-import React from 'react'
 import { app_store,  google_play,  iphone_screen1, iphone_screen2, iphone_screen3, iphone_case1, iphone_case2,  iphone_case3, pocket, yellow  } from '../assets'
 import { pocketlinks } from '../constants'
 
