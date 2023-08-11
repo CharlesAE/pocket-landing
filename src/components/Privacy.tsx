@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { pocket } from '../assets'
 import { pocketobject, privacy } from '../constants'
 
