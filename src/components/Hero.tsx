@@ -12,12 +12,13 @@ const Hero = () => {
 
           <img className="h-16 mx-auto mb-8" src={pocket}  alt={pocketobject.alt} />
             <h3  >Pocket Antigua</h3>
+            <p className="  md:text-lg  mb-6" >The Island in your pocket.</p>
             <p className="main-paragraph " >{pocketobject.intro}</p>
-            <div className="flex flex-wrap justify-center mb-12 space-x-2 ">
+            <div className="flex justify-center mb-12 space-x-2 ">
 
             {
           pocketobject.platform.map((platform) => (
-            <div className="w-auto p-2.5 space-y-2" key={platform.id}>
+            <div className="w-auto p-2.5 " key={platform.id}>
               <a className="w-full " href={platform.url} target='_blank'>
                 <img className="mx-auto" src={ 
                   platform.id =='android' ?

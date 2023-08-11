@@ -24,7 +24,7 @@
     @apply text-pred hover:underline cursor-pointer
   }
   h3 {
-    @apply mb-4 text-4xl md:text-5xl font-montserrat leading-tight font-bold tracking-tighter
+    @apply mb-2 text-4xl md:text-5xl font-montserrat leading-tight font-bold tracking-tighter
   }
   h4 {
     @apply mt-8 mb-4 text-2xl md:text-3xl font-montserrat leading-tight font-bold tracking-tighter uppercase text-center 
