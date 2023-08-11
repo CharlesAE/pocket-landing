@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section  className={`relative main-section`} >
        
-        <div className="container px-4 mx-auto">
+        <div className="container mx-auto">
           <div className="text-center">
           <span className="gradient-fill" >Application</span>
             

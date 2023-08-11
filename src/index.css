@@ -20,14 +20,20 @@
   p {
     @apply font-light font-quicksand
   }
+  a{
+    @apply text-pred hover:underline cursor-pointer
+  }
   h3 {
     @apply mb-4 text-4xl md:text-5xl font-montserrat leading-tight font-bold tracking-tighter
+  }
+  h4 {
+    @apply mt-8 mb-4 text-2xl md:text-3xl font-montserrat leading-tight font-bold tracking-tighter uppercase text-center 
   }
   .main-section {
     @apply pt-12 md:py-24 md:pt-24 
   }
   .main-paragraph {
-    @apply mb-6 mx-auto text-lg font-normal max-w-2xl
+    @apply mb-6 mx-auto text-lg font-normal max-w-4xl
   }
   .footer-icon {
     @apply inline-block hover:text-brand transition-all duration-100 ease-in
